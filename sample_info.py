@@ -14,7 +14,7 @@ USE_CAPTION_FILTER = False
 ADMINS = [12345789, 'admin123', 98765432]
 CHANNELS = [ -1001680195945,  -1001680195945, 'channelusername']
 AUTH_USERS = []
-AUTH_CHANNEL = None
+AUTH_CHANNEL = [ -1001680195945 ]
 
 # MongoDB information
 DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
